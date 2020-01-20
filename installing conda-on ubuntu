@@ -32,6 +32,10 @@
 -->>conda env create -f <environment-name>.yml
 -->>conda create --name <env_name> --file <.txt file>
 
+#installing requirements.txt/yml
+-->>conda install --file requirements.txt
+-->>conda install --file requirements.yml
+
 #List Conda environments
 -->>conda env list
 
