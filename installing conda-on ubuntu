@@ -9,7 +9,7 @@
 
 #follow the instruction 
 
-#In the end to activate conda
+#Initialize conda
 -->> source ~/.bashrc
 
 -->> conda -V
