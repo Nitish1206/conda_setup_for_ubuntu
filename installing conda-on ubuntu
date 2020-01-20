@@ -5,13 +5,14 @@
 -->>curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 
 #run sh file if there is permission problem the use sudo
+-->>./file.sh
 
 #follow the instruction 
 
 #In the end to activate conda
 -->> source ~/.bashrc
 
--->> conda-V
+-->> conda -V
 #if u get version result that means conda in installed on your system
 
 #to create conda environment
