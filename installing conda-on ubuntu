@@ -33,10 +33,10 @@
 -->>conda create --name <env_name> --file <.txt file>
 
 #List Conda environments
-conda env list
+-->>conda env list
 
 #Remove conda environments
-conda env remove -n <env_name>
+-->>conda env remove -n <env_name>
 
 #To change python version in your conda env
 -->conda install python=<python_version>
