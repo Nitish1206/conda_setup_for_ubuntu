@@ -1,3 +1,9 @@
+#download sh file from below link
+-->>https://www.anaconda.com/distribution/
+
+#using terminal
+-->>curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+
 #run sh file if there is permission problem the use sudo
 
 #follow the instruction 
