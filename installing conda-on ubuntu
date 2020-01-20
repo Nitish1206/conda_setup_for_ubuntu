@@ -1,0 +1,39 @@
+#run sh file if there is permission problem the use sudo
+
+#follow the instruction 
+
+#In the end to activate conda
+-->> source ~/.bashrc
+
+-->> conda-V
+#if u get version result that means conda in installed on your system
+
+#to create conda environment
+-->> conda create --name name_of_env  python=python_version(just integer 2 or 3)
+
+#to activate environment
+-->>conda activate name_of_env
+
+#to deactivate environment
+-->>conda deactivate name_of_env 
+
+#creating requirements.txt in conda
+-->>conda list -e > requirements.txt
+-->>conda env export > <env_name>.yml
+
+#For other person to use the environment
+-->>conda env create -f <environment-name>.yml
+-->>conda create --name <env_name> --file <.txt file>
+
+#List Conda environments
+conda env list
+
+#Remove conda environments
+conda env remove -n <env_name>
+
+#To change python version in your conda env
+-->conda install python=<python_version>
+
+#To see python versions available
+-->>conda search python
+
